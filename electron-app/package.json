@@ -1,6 +1,6 @@
 {
   "name": "sri-hari-agencies-quotation",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Quotation application for Sri Hari Agencies",
   "main": "main.js",
   "scripts": {
@@ -34,8 +34,7 @@
       "signAndEditExecutable": false
     },
     "nsis": {
-      "oneClick": false,
-      "allowToChangeInstallationDirectory": true
+      "oneClick": true
     }
   },
   "devDependencies": {
