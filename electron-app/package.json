@@ -1,0 +1,48 @@
+{
+  "name": "sri-hari-agencies-quotation",
+  "version": "1.0.2",
+  "description": "Quotation application for Sri Hari Agencies",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "keywords": [],
+  "author": "Mokith",
+  "license": "ISC",
+  "type": "commonjs",
+  "build": {
+    "appId": "com.mokith.srihari",
+    "productName": "Sri Hari Agencies Quotation",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "org-moki",
+        "repo": "sri-hari-desktop"
+      }
+    ],
+    "asar": false,
+    "files": [
+      "main.js",
+      "preload.js",
+      "web/**/*"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "devDependencies": {
+    "electron": "^41.1.0",
+    "electron-builder": "^26.8.1"
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.9"
+  }
+}
