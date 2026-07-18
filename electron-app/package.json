@@ -1,6 +1,6 @@
 {
   "name": "sri-hari-agencies-quotation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Quotation application for Sri Hari Agencies",
   "main": "main.js",
   "scripts": {
