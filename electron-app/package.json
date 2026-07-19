@@ -1,6 +1,6 @@
 {
   "name": "sri-hari-agencies-quotation",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Quotation application for Sri Hari Agencies",
   "main": "main.js",
   "scripts": {
@@ -18,7 +18,8 @@
       {
         "provider": "github",
         "owner": "MOKI1110",
-        "repo": "sri-hari-desktop"
+        "repo": "sri-hari-desktop",
+        "releaseType": "release"
       }
     ],
     "asar": false,
